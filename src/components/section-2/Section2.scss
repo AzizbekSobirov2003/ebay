@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.section2_slider_items{
+  flex-direction: column;
+  img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  }
+  p{
+    color: black;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 15px;
+  }
+}
+.section2_slider_items:hover{
+  p{
+    border-bottom: 1px solid black;
+  }
+}

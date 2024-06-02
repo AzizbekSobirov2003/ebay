@@ -1,0 +1,105 @@
+.mySwiper2 {
+  width: 800px;
+  height: 500px;
+}
+.mySwiper2 img {
+  width: 800px;
+  height: 500px;
+}
+
+.mySwiper .mySwiperImage {
+  width: 300px;
+  height: 300px;
+}
+.mySwiper .mySwiperImage:hover {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.singlePage {
+  width: 100%;
+}
+
+.singlePage_text_info {
+  width: 50%;
+  margin: 0 auto;
+}
+.singlePage_text_info h1 {
+  text-align: center;
+  font-size: 50px;
+  border-bottom: 1px solid rgba(116, 111, 111, 0.336);
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.singlePage_text_info_next p {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-bottom: 10px;
+}
+
+.singlePage_end {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.singlePage_end p span {
+  font-weight: 500;
+  font-size: 30px;
+}
+.singlePage_end .btn1 {
+  cursor: pointer;
+  background-color: #0053A0;
+  color: #fff;
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  margin-right: 10px;
+  margin-top: 50px;
+  width: 230px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px;
+  transition: all 0.4s;
+}
+.singlePage_end .btn1:hover {
+  background-color: #fff;
+  color: #0053A0;
+  border: 1px solid #0053A0;
+}
+.singlePage_end .btn2 {
+  cursor: pointer;
+  background-color: #3498CA;
+  color: #fff;
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  margin-right: 10px;
+  width: 230px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px;
+  transition: all 0.4s;
+}
+.singlePage_end .btn2:hover {
+  background-color: #fff;
+  color: #3498CA;
+  border: 1px solid #3498CA;
+}
+.singlePage_end .btn3 {
+  cursor: pointer;
+  background: none;
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  width: 230px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #3665F3;
+  color: #3665F3;
+  transition: all 0.4s;
+}
+.singlePage_end .btn3:hover {
+  background-color: #3665F3;
+  color: #fff;
+}/*# sourceMappingURL=SinglePage.css.map */

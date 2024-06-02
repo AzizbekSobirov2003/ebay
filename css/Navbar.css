@@ -1,0 +1,136 @@
+.navbar {
+  width: 100%;
+  background-color: #fff;
+}
+.navbar p:hover {
+  color: #3665f3;
+}
+
+.navbar_first {
+  width: 76%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  height: 31px;
+  align-items: center;
+  border-bottom: 2px solid rgba(116, 111, 111, 0.336);
+}
+
+.navbar_first_left {
+  display: flex;
+  gap: 20px;
+}
+.navbar_first_left p {
+  cursor: pointer;
+  color: #000;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.navbar_first_right {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+.navbar_first_right select {
+  background-color: rgba(0, 0, 0, 0);
+  width: 75px;
+  color: #111820 !important;
+  cursor: pointer;
+  height: 31px;
+  font-size: 12px;
+  color: #333 !important;
+  display: inline-block;
+  border: 1px solid transparent;
+  border-width: 2px 1px 0;
+  text-decoration: none !important;
+}
+.navbar_first_right p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.navbar_first_right .navbar_icon {
+  font-size: 20px;
+  height: 20px;
+  width: 23px;
+  color: #111820 !important;
+  cursor: pointer;
+}
+.navbar_first_right .navbar_icon:hover {
+  color: red !important;
+}
+.navbar_first_right h1 {
+  font-size: 12px;
+  cursor: pointer;
+  color: #000;
+}
+.navbar_first_right h1:hover {
+  color: #3665f3;
+}
+
+.navbar_main {
+  padding-bottom: 40px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  height: 115px;
+  align-items: center;
+}
+.navbar_main img {
+  width: 160px;
+}
+.navbar_main .btn_shopBy {
+  background-color: #fff;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  width: 100px;
+  height: 41px;
+  font-size: 16px;
+  border: none;
+}
+.navbar_main p {
+  cursor: pointer;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  color: #666;
+}
+.navbar_main p:hover {
+  color: #3665f3;
+}
+
+.navbar_search {
+  position: relative;
+  align-items: center;
+}
+.navbar_search input {
+  padding: 10px;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 880px;
+  height: 41px;
+  border: 2px solid rgba(0, 0, 0, 0.801);
+}
+.navbar_search select {
+  cursor: pointer;
+  position: absolute;
+  right: 178px;
+  top: 4px;
+  border: none;
+  border-left: 1 solid rgb(0, 0, 0);
+  height: 35px;
+  font-size: 16px;
+}
+.navbar_search .btn_search {
+  cursor: pointer;
+  height: 41px;
+  width: 171px;
+  margin-left: 5px;
+  border: none;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #3665f3;
+  color: #fff;
+}/*# sourceMappingURL=Navbar.css.map */
